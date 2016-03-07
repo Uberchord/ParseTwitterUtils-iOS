@@ -1,0 +1,712 @@
+BCSymbolMap Version: 1.0
++[BFTaskCompletionSource taskCompletionSource]
+-[BFTaskCompletionSource init]
+-[BFTaskCompletionSource setResult:]
+-[BFTaskCompletionSource setError:]
+-[BFTaskCompletionSource setException:]
+-[BFTaskCompletionSource cancel]
+-[BFTaskCompletionSource trySetResult:]
+-[BFTaskCompletionSource trySetError:]
+-[BFTaskCompletionSource trySetException:]
+-[BFTaskCompletionSource trySetCancelled]
+-[BFTaskCompletionSource task]
+-[BFTaskCompletionSource setTask:]
+-[BFTaskCompletionSource .cxx_destruct]
+OBJC_METH_VAR_NAME_
+OBJC_SELECTOR_REFERENCES_
+OBJC_METH_VAR_NAME_1
+OBJC_SELECTOR_REFERENCES_2
+OBJC_CLASSLIST_SUP_REFS_$_
+OBJC_CLASSLIST_REFERENCES_$_
+OBJC_IVAR_$_BFTaskCompletionSource._task
+OBJC_METH_VAR_NAME_3
+OBJC_SELECTOR_REFERENCES_4
+OBJC_METH_VAR_NAME_5
+OBJC_SELECTOR_REFERENCES_6
+OBJC_CLASSLIST_REFERENCES_$_7
+.str
+_unnamed_cfstring_
+OBJC_METH_VAR_NAME_8
+OBJC_SELECTOR_REFERENCES_9
+OBJC_METH_VAR_NAME_10
+OBJC_SELECTOR_REFERENCES_11
+.str12
+_unnamed_cfstring_13
+OBJC_METH_VAR_NAME_14
+OBJC_SELECTOR_REFERENCES_15
+.str16
+_unnamed_cfstring_17
+OBJC_METH_VAR_NAME_18
+OBJC_SELECTOR_REFERENCES_19
+.str20
+_unnamed_cfstring_21
+OBJC_CLASS_NAME_
+OBJC_METH_VAR_NAME_22
+OBJC_METH_VAR_TYPE_
+l_OBJC_$_CLASS_METHODS_BFTaskCompletionSource
+l_OBJC_METACLASS_RO_$_BFTaskCompletionSource
+OBJC_CLASS_NAME_23
+OBJC_METH_VAR_NAME_24
+OBJC_METH_VAR_TYPE_25
+OBJC_METH_VAR_NAME_26
+OBJC_METH_VAR_NAME_27
+OBJC_METH_VAR_NAME_28
+OBJC_METH_VAR_TYPE_29
+OBJC_METH_VAR_TYPE_30
+OBJC_METH_VAR_TYPE_31
+OBJC_METH_VAR_NAME_32
+OBJC_METH_VAR_NAME_33
+l_OBJC_$_INSTANCE_METHODS_BFTaskCompletionSource
+OBJC_METH_VAR_NAME_34
+OBJC_METH_VAR_TYPE_35
+l_OBJC_$_INSTANCE_VARIABLES_BFTaskCompletionSource
+OBJC_PROP_NAME_ATTR_
+OBJC_PROP_NAME_ATTR_36
+l_OBJC_$_PROP_LIST_BFTaskCompletionSource
+l_OBJC_CLASS_RO_$_BFTaskCompletionSource
+OBJC_LABEL_CLASS_$
+Apple LLVM version 7.0.2 (clang-700.1.81)
+/Users/martinpolak/Library/Developer/Xcode/DerivedData/ModuleCache/2F2F2USZ512CX/ObjectiveC-B8AF5LV60QGH.pcm
+ObjectiveC
+/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.1.sdk/usr/include/objc
+/Users/martinpolak/Library/Developer/Xcode/DerivedData/ModuleCache/2F2F2USZ512CX/Foundation-1DFKLFBZMJLFC.pcm
+Foundation
+/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.1.sdk/System/Library/Frameworks/Foundation.framework
+-[BFTaskCompletionSource .cxx_destruct]
+/Users/martinpolak/Uberchord/Code/ParseTwitterUtils-iOS/Carthage/Checkouts/Bolts-iOS/Bolts/Common/BFTaskCompletionSource.m
+/Users/martinpolak/Uberchord/Code/ParseTwitterUtils-iOS/Carthage/Checkouts/Bolts-iOS
+-[BFTaskCompletionSource setTask:]
+-[BFTaskCompletionSource task]
+/Users/martinpolak/Uberchord/Code/ParseTwitterUtils-iOS/Carthage/Checkouts/Bolts-iOS/Bolts/Common/BFTaskCompletionSource.h
+-[BFTaskCompletionSource trySetCancelled]
+-[BFTaskCompletionSource trySetException:]
+-[BFTaskCompletionSource trySetError:]
+-[BFTaskCompletionSource trySetResult:]
+-[BFTaskCompletionSource cancel]
+-[BFTaskCompletionSource setException:]
+-[BFTaskCompletionSource setError:]
+-[BFTaskCompletionSource setResult:]
+-[BFTaskCompletionSource init]
++[BFTaskCompletionSource taskCompletionSource]
+-[BFTask init]
+-[BFTask initWithResult:]
+-[BFTask initWithError:]
+-[BFTask initWithException:]
+-[BFTask initCancelled]
++[BFTask taskWithResult:]
++[BFTask taskWithError:]
++[BFTask taskWithException:]
++[BFTask cancelledTask]
++[BFTask taskForCompletionOfAllTasks:]
+__38+[BFTask taskForCompletionOfAllTasks:]_block_invoke
+__copy_helper_block_
+__destroy_helper_block_
++[BFTask taskForCompletionOfAllTasksWithResults:]
+__49+[BFTask taskForCompletionOfAllTasksWithResults:]_block_invoke
+__copy_helper_block_80
+__destroy_helper_block_81
++[BFTask taskWithDelay:]
+__24+[BFTask taskWithDelay:]_block_invoke
+__copy_helper_block_85
+__destroy_helper_block_86
++[BFTask taskWithDelay:cancellationToken:]
+__42+[BFTask taskWithDelay:cancellationToken:]_block_invoke
+__copy_helper_block_94
+__destroy_helper_block_95
++[BFTask taskFromExecutor:withBlock:]
+__37+[BFTask taskFromExecutor:withBlock:]_block_invoke
+__copy_helper_block_97
+__destroy_helper_block_98
+-[BFTask result]
+-[BFTask trySetResult:]
+-[BFTask error]
+-[BFTask trySetError:]
+-[BFTask exception]
+-[BFTask trySetException:]
+-[BFTask isCancelled]
+-[BFTask isFaulted]
+-[BFTask trySetCancelled]
+-[BFTask isCompleted]
+-[BFTask setCompleted]
+-[BFTask runContinuations]
+-[BFTask continueWithExecutor:withBlock:]
+-[BFTask continueWithExecutor:block:cancellationToken:]
+__55-[BFTask continueWithExecutor:block:cancellationToken:]_block_invoke
+__55-[BFTask continueWithExecutor:block:cancellationToken:]_block_invoke_2
+__55-[BFTask continueWithExecutor:block:cancellationToken:]_block_invoke_3
+__copy_helper_block_132
+__destroy_helper_block_133
+__copy_helper_block_135
+__destroy_helper_block_136
+__copy_helper_block_140
+__destroy_helper_block_141
+-[BFTask continueWithBlock:]
+-[BFTask continueWithBlock:cancellationToken:]
+-[BFTask continueWithExecutor:withSuccessBlock:]
+-[BFTask continueWithExecutor:successBlock:cancellationToken:]
+__62-[BFTask continueWithExecutor:successBlock:cancellationToken:]_block_invoke
+__copy_helper_block_152
+__destroy_helper_block_153
+-[BFTask continueWithSuccessBlock:]
+-[BFTask continueWithSuccessBlock:cancellationToken:]
+-[BFTask warnOperationOnMainThread]
+-[BFTask waitUntilFinished]
+-[BFTask description]
+-[BFTask setCancelled:]
+-[BFTask setFaulted:]
+-[BFTask setCompleted:]
+-[BFTask lock]
+-[BFTask setLock:]
+-[BFTask condition]
+-[BFTask setCondition:]
+-[BFTask callbacks]
+-[BFTask setCallbacks:]
+-[BFTask .cxx_destruct]
+.str1
+_unnamed_cfstring_2
+.str3
+_unnamed_cfstring_4
+OBJC_IVAR_$_BFTask._lock
+OBJC_IVAR_$_BFTask._condition
+OBJC_CLASSLIST_REFERENCES_$_8
+OBJC_METH_VAR_NAME_9
+OBJC_SELECTOR_REFERENCES_10
+OBJC_IVAR_$_BFTask._callbacks
+OBJC_METH_VAR_NAME_11
+OBJC_SELECTOR_REFERENCES_12
+OBJC_METH_VAR_NAME_13
+OBJC_SELECTOR_REFERENCES_14
+OBJC_METH_VAR_NAME_15
+OBJC_SELECTOR_REFERENCES_16
+OBJC_METH_VAR_NAME_17
+OBJC_SELECTOR_REFERENCES_18
+OBJC_METH_VAR_NAME_19
+OBJC_SELECTOR_REFERENCES_20
+OBJC_METH_VAR_NAME_21
+OBJC_SELECTOR_REFERENCES_22
+OBJC_METH_VAR_NAME_23
+OBJC_SELECTOR_REFERENCES_24
+OBJC_METH_VAR_NAME_25
+OBJC_SELECTOR_REFERENCES_26
+OBJC_SELECTOR_REFERENCES_28
+OBJC_METH_VAR_NAME_29
+OBJC_SELECTOR_REFERENCES_30
+OBJC_CLASSLIST_REFERENCES_$_31
+OBJC_SELECTOR_REFERENCES_33
+OBJC_SELECTOR_REFERENCES_35
+OBJC_METH_VAR_NAME_36
+OBJC_SELECTOR_REFERENCES_37
+OBJC_METH_VAR_NAME_38
+OBJC_SELECTOR_REFERENCES_39
+OBJC_METH_VAR_NAME_40
+OBJC_SELECTOR_REFERENCES_41
+OBJC_METH_VAR_NAME_42
+OBJC_SELECTOR_REFERENCES_43
+OBJC_METH_VAR_NAME_44
+OBJC_SELECTOR_REFERENCES_45
+OBJC_METH_VAR_NAME_46
+OBJC_SELECTOR_REFERENCES_47
+OBJC_CLASSLIST_REFERENCES_$_48
+.str49
+_unnamed_cfstring_50
+.str51
+_unnamed_cfstring_52
+OBJC_CLASSLIST_REFERENCES_$_53
+OBJC_METH_VAR_NAME_54
+OBJC_SELECTOR_REFERENCES_55
+OBJC_METH_VAR_NAME_56
+OBJC_SELECTOR_REFERENCES_57
+OBJC_METH_VAR_NAME_58
+OBJC_SELECTOR_REFERENCES_59
+OBJC_CLASSLIST_REFERENCES_$_60
+.str61
+_unnamed_cfstring_62
+OBJC_METH_VAR_NAME_63
+OBJC_SELECTOR_REFERENCES_64
+OBJC_METH_VAR_NAME_65
+OBJC_SELECTOR_REFERENCES_66
+OBJC_METH_VAR_NAME_67
+OBJC_SELECTOR_REFERENCES_68
+.str69
+__block_descriptor_tmp
+OBJC_METH_VAR_NAME_70
+OBJC_SELECTOR_REFERENCES_71
+OBJC_METH_VAR_NAME_72
+OBJC_SELECTOR_REFERENCES_73
+OBJC_METH_VAR_NAME_74
+OBJC_SELECTOR_REFERENCES_75
+.str76
+_unnamed_cfstring_77
+OBJC_METH_VAR_NAME_78
+OBJC_SELECTOR_REFERENCES_79
+__block_descriptor_tmp82
+OBJC_METH_VAR_NAME_83
+OBJC_SELECTOR_REFERENCES_84
+.str87
+__block_descriptor_tmp88
+OBJC_METH_VAR_NAME_89
+OBJC_SELECTOR_REFERENCES_90
+OBJC_CLASSLIST_REFERENCES_$_91
+OBJC_METH_VAR_NAME_92
+OBJC_SELECTOR_REFERENCES_93
+__block_descriptor_tmp96
+__block_descriptor_tmp99
+OBJC_METH_VAR_NAME_100
+OBJC_SELECTOR_REFERENCES_101
+OBJC_METH_VAR_NAME_102
+OBJC_SELECTOR_REFERENCES_103
+OBJC_IVAR_$_BFTask._result
+OBJC_METH_VAR_NAME_104
+OBJC_SELECTOR_REFERENCES_105
+OBJC_METH_VAR_NAME_106
+OBJC_SELECTOR_REFERENCES_107
+OBJC_METH_VAR_NAME_108
+OBJC_SELECTOR_REFERENCES_109
+OBJC_IVAR_$_BFTask._error
+OBJC_METH_VAR_NAME_110
+OBJC_SELECTOR_REFERENCES_111
+OBJC_IVAR_$_BFTask._exception
+OBJC_IVAR_$_BFTask._cancelled
+OBJC_IVAR_$_BFTask._faulted
+OBJC_METH_VAR_NAME_112
+OBJC_SELECTOR_REFERENCES_113
+OBJC_IVAR_$_BFTask._completed
+OBJC_METH_VAR_NAME_114
+OBJC_SELECTOR_REFERENCES_115
+OBJC_METH_VAR_NAME_116
+OBJC_SELECTOR_REFERENCES_117
+OBJC_METH_VAR_NAME_118
+OBJC_SELECTOR_REFERENCES_119
+OBJC_METH_VAR_NAME_120
+OBJC_SELECTOR_REFERENCES_121
+OBJC_METH_VAR_NAME_122
+OBJC_SELECTOR_REFERENCES_123
+OBJC_METH_VAR_NAME_124
+OBJC_SELECTOR_REFERENCES_125
+OBJC_METH_VAR_NAME_126
+OBJC_SELECTOR_REFERENCES_127
+OBJC_METH_VAR_NAME_128
+OBJC_SELECTOR_REFERENCES_129
+OBJC_METH_VAR_NAME_130
+OBJC_SELECTOR_REFERENCES_131
+__block_descriptor_tmp134
+__block_descriptor_tmp137
+OBJC_METH_VAR_NAME_138
+OBJC_SELECTOR_REFERENCES_139
+__block_descriptor_tmp142
+OBJC_METH_VAR_NAME_143
+OBJC_SELECTOR_REFERENCES_144
+OBJC_CLASSLIST_REFERENCES_$_145
+OBJC_METH_VAR_NAME_146
+OBJC_SELECTOR_REFERENCES_147
+OBJC_METH_VAR_NAME_148
+OBJC_SELECTOR_REFERENCES_149
+OBJC_METH_VAR_NAME_150
+OBJC_SELECTOR_REFERENCES_151
+__block_descriptor_tmp154
+OBJC_CLASSLIST_REFERENCES_$_155
+OBJC_METH_VAR_NAME_156
+OBJC_SELECTOR_REFERENCES_157
+OBJC_METH_VAR_NAME_158
+OBJC_SELECTOR_REFERENCES_159
+OBJC_METH_VAR_NAME_160
+OBJC_SELECTOR_REFERENCES_161
+OBJC_CLASSLIST_REFERENCES_$_162
+.str163
+_unnamed_cfstring_164
+OBJC_METH_VAR_NAME_165
+OBJC_SELECTOR_REFERENCES_166
+.str167
+_unnamed_cfstring_168
+.str169
+_unnamed_cfstring_170
+.str171
+_unnamed_cfstring_172
+.str173
+_unnamed_cfstring_174
+OBJC_METH_VAR_NAME_175
+OBJC_METH_VAR_NAME_176
+OBJC_METH_VAR_TYPE_177
+OBJC_METH_VAR_NAME_178
+OBJC_METH_VAR_NAME_179
+OBJC_METH_VAR_TYPE_180
+OBJC_METH_VAR_NAME_181
+OBJC_METH_VAR_TYPE_182
+OBJC_METH_VAR_NAME_183
+OBJC_METH_VAR_TYPE_184
+l_OBJC_$_CLASS_METHODS_BFTask
+l_OBJC_METACLASS_RO_$_BFTask
+OBJC_CLASS_NAME_185
+OBJC_METH_VAR_TYPE_186
+OBJC_METH_VAR_TYPE_187
+OBJC_METH_VAR_NAME_188
+OBJC_METH_VAR_TYPE_189
+OBJC_METH_VAR_TYPE_190
+OBJC_METH_VAR_TYPE_191
+OBJC_METH_VAR_NAME_192
+OBJC_METH_VAR_TYPE_193
+OBJC_METH_VAR_NAME_194
+OBJC_METH_VAR_NAME_195
+OBJC_METH_VAR_NAME_196
+OBJC_METH_VAR_NAME_197
+OBJC_METH_VAR_NAME_198
+OBJC_METH_VAR_TYPE_199
+OBJC_METH_VAR_NAME_200
+OBJC_METH_VAR_TYPE_201
+OBJC_METH_VAR_NAME_202
+OBJC_METH_VAR_NAME_203
+l_OBJC_$_INSTANCE_METHODS_BFTask
+OBJC_METH_VAR_NAME_204
+OBJC_METH_VAR_TYPE_205
+OBJC_METH_VAR_NAME_206
+OBJC_METH_VAR_TYPE_207
+OBJC_METH_VAR_NAME_208
+OBJC_METH_VAR_TYPE_209
+OBJC_METH_VAR_NAME_210
+OBJC_METH_VAR_TYPE_211
+OBJC_METH_VAR_NAME_212
+OBJC_METH_VAR_NAME_213
+OBJC_METH_VAR_NAME_214
+OBJC_METH_VAR_TYPE_215
+OBJC_METH_VAR_NAME_216
+OBJC_METH_VAR_TYPE_217
+OBJC_METH_VAR_NAME_218
+OBJC_METH_VAR_TYPE_219
+l_OBJC_$_INSTANCE_VARIABLES_BFTask
+OBJC_PROP_NAME_ATTR_220
+OBJC_PROP_NAME_ATTR_221
+OBJC_PROP_NAME_ATTR_222
+OBJC_PROP_NAME_ATTR_223
+OBJC_PROP_NAME_ATTR_224
+OBJC_PROP_NAME_ATTR_225
+OBJC_PROP_NAME_ATTR_226
+OBJC_PROP_NAME_ATTR_227
+OBJC_PROP_NAME_ATTR_228
+OBJC_PROP_NAME_ATTR_229
+OBJC_PROP_NAME_ATTR_230
+OBJC_PROP_NAME_ATTR_231
+OBJC_PROP_NAME_ATTR_232
+OBJC_PROP_NAME_ATTR_233
+OBJC_PROP_NAME_ATTR_234
+OBJC_PROP_NAME_ATTR_235
+OBJC_PROP_NAME_ATTR_236
+l_OBJC_$_PROP_LIST_BFTask
+l_OBJC_CLASS_RO_$_BFTask
+/Users/martinpolak/Library/Developer/Xcode/DerivedData/ModuleCache/2F2F2USZ512CX/Darwin-278EYPJ7AZZZ7.pcm
+Darwin
+/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.1.sdk/usr/include
+-[BFTask .cxx_destruct]
+/Users/martinpolak/Uberchord/Code/ParseTwitterUtils-iOS/Carthage/Checkouts/Bolts-iOS/Bolts/Common/BFTask.m
+-[BFTask setCallbacks:]
+-[BFTask callbacks]
+-[BFTask setCondition:]
+-[BFTask condition]
+-[BFTask setLock:]
+-[BFTask lock]
+-[BFTask setCompleted:]
+-[BFTask setFaulted:]
+-[BFTask setCancelled:]
+-[BFTask description]
+-[BFTask waitUntilFinished]
+-[BFTask warnOperationOnMainThread]
+-[BFTask continueWithSuccessBlock:cancellationToken:]
+-[BFTask continueWithSuccessBlock:]
+-[BFTask continueWithExecutor:successBlock:cancellationToken:]
+-[BFTask continueWithExecutor:withSuccessBlock:]
+-[BFTask continueWithBlock:cancellationToken:]
+-[BFTask continueWithBlock:]
+-[BFTask continueWithExecutor:block:cancellationToken:]
+-[BFTask continueWithExecutor:withBlock:]
+-[BFTask runContinuations]
+-[BFTask setCompleted]
+-[BFTask isCompleted]
+-[BFTask trySetCancelled]
+-[BFTask isFaulted]
+-[BFTask isCancelled]
+-[BFTask trySetException:]
+-[BFTask exception]
+-[BFTask trySetError:]
+-[BFTask error]
+-[BFTask trySetResult:]
+-[BFTask result]
++[BFTask taskFromExecutor:withBlock:]
++[BFTask taskWithDelay:cancellationToken:]
++[BFTask taskWithDelay:]
++[BFTask taskForCompletionOfAllTasksWithResults:]
++[BFTask taskForCompletionOfAllTasks:]
++[BFTask cancelledTask]
++[BFTask taskWithException:]
++[BFTask taskWithError:]
++[BFTask taskWithResult:]
+-[BFTask initCancelled]
+-[BFTask initWithException:]
+-[BFTask initWithError:]
+-[BFTask initWithResult:]
+-[BFTask init]
+warnBlockingOperationOnMainThread
++[Bolts version]
+l_OBJC_$_CLASS_METHODS_Bolts
+l_OBJC_METACLASS_RO_$_Bolts
+l_OBJC_CLASS_RO_$_Bolts
++[Bolts version]
+/Users/martinpolak/Uberchord/Code/ParseTwitterUtils-iOS/Carthage/Checkouts/Bolts-iOS/Bolts/Common/Bolts.m
++[BFCancellationTokenRegistration registrationWithToken:delegate:]
+-[BFCancellationTokenRegistration init]
+-[BFCancellationTokenRegistration dispose]
+-[BFCancellationTokenRegistration notifyDelegate]
+-[BFCancellationTokenRegistration throwIfDisposed]
+-[BFCancellationTokenRegistration token]
+-[BFCancellationTokenRegistration setToken:]
+-[BFCancellationTokenRegistration cancellationObserverBlock]
+-[BFCancellationTokenRegistration setCancellationObserverBlock:]
+-[BFCancellationTokenRegistration lock]
+-[BFCancellationTokenRegistration setLock:]
+-[BFCancellationTokenRegistration disposed]
+-[BFCancellationTokenRegistration setDisposed:]
+-[BFCancellationTokenRegistration .cxx_destruct]
+OBJC_IVAR_$_BFCancellationTokenRegistration._lock
+OBJC_METH_VAR_NAME_12
+OBJC_SELECTOR_REFERENCES_13
+OBJC_METH_VAR_NAME_16
+OBJC_SELECTOR_REFERENCES_17
+OBJC_METH_VAR_NAME_20
+OBJC_SELECTOR_REFERENCES_21
+OBJC_IVAR_$_BFCancellationTokenRegistration._token
+OBJC_IVAR_$_BFCancellationTokenRegistration._cancellationObserverBlock
+OBJC_IVAR_$_BFCancellationTokenRegistration._disposed
+l_OBJC_$_CLASS_METHODS_BFCancellationTokenRegistration
+l_OBJC_METACLASS_RO_$_BFCancellationTokenRegistration
+OBJC_METH_VAR_TYPE_24
+OBJC_METH_VAR_TYPE_26
+OBJC_METH_VAR_TYPE_33
+OBJC_METH_VAR_TYPE_34
+l_OBJC_$_INSTANCE_METHODS_BFCancellationTokenRegistration
+OBJC_METH_VAR_NAME_35
+OBJC_METH_VAR_TYPE_36
+OBJC_METH_VAR_NAME_37
+OBJC_METH_VAR_TYPE_38
+OBJC_METH_VAR_NAME_39
+OBJC_METH_VAR_TYPE_40
+OBJC_METH_VAR_NAME_41
+OBJC_METH_VAR_TYPE_42
+l_OBJC_$_INSTANCE_VARIABLES_BFCancellationTokenRegistration
+OBJC_CLASS_NAME_43
+OBJC_PROP_NAME_ATTR_44
+OBJC_PROP_NAME_ATTR_45
+OBJC_PROP_NAME_ATTR_46
+OBJC_PROP_NAME_ATTR_47
+OBJC_PROP_NAME_ATTR_48
+OBJC_PROP_NAME_ATTR_49
+OBJC_PROP_NAME_ATTR_50
+l_OBJC_$_PROP_LIST_BFCancellationTokenRegistration
+l_OBJC_CLASS_RO_$_BFCancellationTokenRegistration
+-[BFCancellationTokenRegistration .cxx_destruct]
+/Users/martinpolak/Uberchord/Code/ParseTwitterUtils-iOS/Carthage/Checkouts/Bolts-iOS/Bolts/Common/BFCancellationTokenRegistration.m
+-[BFCancellationTokenRegistration setDisposed:]
+-[BFCancellationTokenRegistration disposed]
+-[BFCancellationTokenRegistration setLock:]
+-[BFCancellationTokenRegistration lock]
+-[BFCancellationTokenRegistration setCancellationObserverBlock:]
+-[BFCancellationTokenRegistration cancellationObserverBlock]
+-[BFCancellationTokenRegistration setToken:]
+-[BFCancellationTokenRegistration token]
+-[BFCancellationTokenRegistration throwIfDisposed]
+-[BFCancellationTokenRegistration notifyDelegate]
+-[BFCancellationTokenRegistration dispose]
+-[BFCancellationTokenRegistration init]
++[BFCancellationTokenRegistration registrationWithToken:delegate:]
+-[BFCancellationTokenSource init]
++[BFCancellationTokenSource cancellationTokenSource]
+-[BFCancellationTokenSource isCancellationRequested]
+-[BFCancellationTokenSource cancel]
+-[BFCancellationTokenSource cancelAfterDelay:]
+-[BFCancellationTokenSource dispose]
+-[BFCancellationTokenSource token]
+-[BFCancellationTokenSource .cxx_destruct]
+OBJC_IVAR_$_BFCancellationTokenSource._token
+OBJC_CLASSLIST_REFERENCES_$_3
+OBJC_METH_VAR_NAME_4
+OBJC_SELECTOR_REFERENCES_5
+OBJC_METH_VAR_NAME_6
+OBJC_SELECTOR_REFERENCES_7
+l_OBJC_$_CLASS_METHODS_BFCancellationTokenSource
+l_OBJC_METACLASS_RO_$_BFCancellationTokenSource
+OBJC_CLASS_NAME_13
+OBJC_METH_VAR_TYPE_14
+OBJC_METH_VAR_TYPE_15
+OBJC_METH_VAR_TYPE_16
+l_OBJC_$_INSTANCE_METHODS_BFCancellationTokenSource
+OBJC_METH_VAR_TYPE_20
+l_OBJC_$_INSTANCE_VARIABLES_BFCancellationTokenSource
+OBJC_PROP_NAME_ATTR_21
+OBJC_PROP_NAME_ATTR_22
+OBJC_PROP_NAME_ATTR_23
+l_OBJC_$_PROP_LIST_BFCancellationTokenSource
+l_OBJC_CLASS_RO_$_BFCancellationTokenSource
+-[BFCancellationTokenSource .cxx_destruct]
+/Users/martinpolak/Uberchord/Code/ParseTwitterUtils-iOS/Carthage/Checkouts/Bolts-iOS/Bolts/Common/BFCancellationTokenSource.m
+-[BFCancellationTokenSource token]
+/Users/martinpolak/Uberchord/Code/ParseTwitterUtils-iOS/Carthage/Checkouts/Bolts-iOS/Bolts/Common/BFCancellationTokenSource.h
+-[BFCancellationTokenSource dispose]
+-[BFCancellationTokenSource cancelAfterDelay:]
+-[BFCancellationTokenSource cancel]
+-[BFCancellationTokenSource isCancellationRequested]
++[BFCancellationTokenSource cancellationTokenSource]
+-[BFCancellationTokenSource init]
++[BFExecutor defaultExecutor]
+__29+[BFExecutor defaultExecutor]_block_invoke
+__29+[BFExecutor defaultExecutor]_block_invoke_2
+remaining_stack_size
++[BFExecutor immediateExecutor]
+__31+[BFExecutor immediateExecutor]_block_invoke
+__31+[BFExecutor immediateExecutor]_block_invoke_2
+__copy_helper_block_5
+__destroy_helper_block_6
++[BFExecutor mainThreadExecutor]
+__32+[BFExecutor mainThreadExecutor]_block_invoke
+__32+[BFExecutor mainThreadExecutor]_block_invoke_2
+__copy_helper_block_13
+__destroy_helper_block_14
++[BFExecutor executorWithBlock:]
++[BFExecutor executorWithDispatchQueue:]
+__40+[BFExecutor executorWithDispatchQueue:]_block_invoke
+__copy_helper_block_21
+__destroy_helper_block_22
++[BFExecutor executorWithOperationQueue:]
+__41+[BFExecutor executorWithOperationQueue:]_block_invoke
+__copy_helper_block_29
+__destroy_helper_block_30
+-[BFExecutor initWithBlock:]
+-[BFExecutor execute:]
+-[BFExecutor block]
+-[BFExecutor setBlock:]
+-[BFExecutor .cxx_destruct]
+defaultExecutor.defaultExecutor
+defaultExecutor.onceToken
+__block_literal_global
+__block_descriptor_tmp2
+immediateExecutor.immediateExecutor
+immediateExecutor.onceToken
+__block_descriptor_tmp3
+__block_literal_global4
+OBJC_CLASS_NAME_7
+__block_descriptor_tmp8
+mainThreadExecutor.mainThreadExecutor
+mainThreadExecutor.onceToken
+__block_descriptor_tmp11
+__block_literal_global12
+OBJC_CLASS_NAME_15
+__block_descriptor_tmp16
+__block_descriptor_tmp23
+OBJC_CLASSLIST_REFERENCES_$_24
+__block_descriptor_tmp31
+OBJC_IVAR_$_BFExecutor._block
+OBJC_CLASS_NAME_36
+OBJC_METH_VAR_NAME_43
+l_OBJC_$_CLASS_METHODS_BFExecutor
+l_OBJC_METACLASS_RO_$_BFExecutor
+OBJC_CLASS_NAME_44
+OBJC_METH_VAR_NAME_45
+OBJC_METH_VAR_TYPE_46
+OBJC_METH_VAR_NAME_47
+OBJC_METH_VAR_TYPE_48
+OBJC_METH_VAR_TYPE_49
+OBJC_METH_VAR_NAME_50
+l_OBJC_$_INSTANCE_METHODS_BFExecutor
+OBJC_METH_VAR_NAME_51
+OBJC_METH_VAR_TYPE_52
+l_OBJC_$_INSTANCE_VARIABLES_BFExecutor
+OBJC_PROP_NAME_ATTR_53
+l_OBJC_$_PROP_LIST_BFExecutor
+l_OBJC_CLASS_RO_$_BFExecutor
+dispatch_get_main_queue
+/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.1.sdk/usr/include/dispatch/queue.h
+/Users/martinpolak/Uberchord/Code/ParseTwitterUtils-iOS/Carthage/Checkouts/Bolts-iOS/Bolts/Common/BFExecutor.m
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.1.sdk/usr/include/dispatch/once.h
+-[BFExecutor .cxx_destruct]
+-[BFExecutor setBlock:]
+-[BFExecutor block]
+-[BFExecutor execute:]
+-[BFExecutor initWithBlock:]
++[BFExecutor executorWithOperationQueue:]
++[BFExecutor executorWithDispatchQueue:]
++[BFExecutor executorWithBlock:]
++[BFExecutor mainThreadExecutor]
++[BFExecutor immediateExecutor]
++[BFExecutor defaultExecutor]
+-[BFCancellationToken init]
+-[BFCancellationToken isCancellationRequested]
+-[BFCancellationToken cancel]
+-[BFCancellationToken notifyCancellation:]
+-[BFCancellationToken registerCancellationObserverWithBlock:]
+-[BFCancellationToken unregisterRegistration:]
+-[BFCancellationToken cancelPrivate]
+-[BFCancellationToken cancelAfterDelay:]
+-[BFCancellationToken dispose]
+-[BFCancellationToken throwIfDisposed]
+-[BFCancellationToken setCancellationRequested:]
+-[BFCancellationToken registrations]
+-[BFCancellationToken setRegistrations:]
+-[BFCancellationToken lock]
+-[BFCancellationToken setLock:]
+-[BFCancellationToken disposed]
+-[BFCancellationToken setDisposed:]
+-[BFCancellationToken .cxx_destruct]
+OBJC_IVAR_$_BFCancellationToken._registrations
+OBJC_IVAR_$_BFCancellationToken._lock
+OBJC_IVAR_$_BFCancellationToken._cancellationRequested
+OBJC_SELECTOR_REFERENCES_23
+OBJC_METH_VAR_NAME_31
+OBJC_SELECTOR_REFERENCES_32
+OBJC_CLASSLIST_REFERENCES_$_33
+.str48
+_unnamed_cfstring_49
+OBJC_IVAR_$_BFCancellationToken._disposed
+l_OBJC_METACLASS_RO_$_BFCancellationToken
+OBJC_CLASS_NAME_50
+OBJC_METH_VAR_TYPE_51
+OBJC_METH_VAR_TYPE_53
+OBJC_METH_VAR_TYPE_55
+OBJC_METH_VAR_NAME_57
+OBJC_METH_VAR_TYPE_58
+OBJC_METH_VAR_NAME_59
+OBJC_METH_VAR_NAME_60
+OBJC_METH_VAR_TYPE_61
+OBJC_METH_VAR_NAME_62
+l_OBJC_$_INSTANCE_METHODS_BFCancellationToken
+OBJC_METH_VAR_NAME_64
+OBJC_METH_VAR_TYPE_65
+OBJC_METH_VAR_NAME_66
+OBJC_METH_VAR_TYPE_68
+OBJC_METH_VAR_NAME_69
+OBJC_METH_VAR_TYPE_70
+l_OBJC_$_INSTANCE_VARIABLES_BFCancellationToken
+OBJC_PROP_NAME_ATTR_71
+OBJC_PROP_NAME_ATTR_72
+OBJC_PROP_NAME_ATTR_73
+OBJC_PROP_NAME_ATTR_74
+OBJC_PROP_NAME_ATTR_75
+OBJC_PROP_NAME_ATTR_76
+OBJC_PROP_NAME_ATTR_77
+l_OBJC_$_PROP_LIST_BFCancellationToken
+l_OBJC_CLASS_RO_$_BFCancellationToken
+-[BFCancellationToken .cxx_destruct]
+/Users/martinpolak/Uberchord/Code/ParseTwitterUtils-iOS/Carthage/Checkouts/Bolts-iOS/Bolts/Common/BFCancellationToken.m
+-[BFCancellationToken setDisposed:]
+-[BFCancellationToken disposed]
+-[BFCancellationToken setLock:]
+-[BFCancellationToken lock]
+-[BFCancellationToken setRegistrations:]
+-[BFCancellationToken registrations]
+-[BFCancellationToken setCancellationRequested:]
+-[BFCancellationToken throwIfDisposed]
+-[BFCancellationToken dispose]
+-[BFCancellationToken cancelAfterDelay:]
+-[BFCancellationToken cancelPrivate]
+-[BFCancellationToken unregisterRegistration:]
+-[BFCancellationToken registerCancellationObserverWithBlock:]
+-[BFCancellationToken notifyCancellation:]
+-[BFCancellationToken cancel]
+-[BFCancellationToken isCancellationRequested]
+-[BFCancellationToken init]

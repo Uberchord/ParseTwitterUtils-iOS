@@ -20,3 +20,4 @@ build
 
 Vendor/Parse.framework
 Vendor/Bolts.framework
+Carthage/Checkouts

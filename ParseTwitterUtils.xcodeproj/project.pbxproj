@@ -17,8 +17,6 @@
 		8135E4991B4B6A0E0092F452 /* PF_Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8135E4921B4B6A0E0092F452 /* PF_Twitter.m */; };
 		8135E49A1B4B6A0E0092F452 /* PFTwitterUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8135E4931B4B6A0E0092F452 /* PFTwitterUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8135E49B1B4B6A0E0092F452 /* PFTwitterUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8135E4941B4B6A0E0092F452 /* PFTwitterUtils.m */; };
-		813DFC931AB2515A00F25A08 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813DFC921AB2515A00F25A08 /* Bolts.framework */; };
-		813DFC951AB251F700F25A08 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813DFC941AB251F700F25A08 /* Parse.framework */; };
 		813DFC981AB2526000F25A08 /* third_party_licenses.txt in Resources */ = {isa = PBXBuildFile; fileRef = 813DFC971AB2526000F25A08 /* third_party_licenses.txt */; };
 		813E54A41BB5DDEF00C727E8 /* PFTwitterUtils_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 813E54A31BB5DDEF00C727E8 /* PFTwitterUtils_Private.h */; };
 		813E54A91BB5E5FA00C727E8 /* PFTwitterPrivateUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 813E54A61BB5E52000C727E8 /* PFTwitterPrivateUtilities.m */; };
@@ -37,12 +35,12 @@
 		819DAAD61BB5EC79002BDE2B /* PFTwitterAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 819DAAD41BB5EC79002BDE2B /* PFTwitterAlertView.h */; };
 		819DAAD71BB5EC79002BDE2B /* PFTwitterAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 819DAAD51BB5EC79002BDE2B /* PFTwitterAlertView.m */; };
 		81CB98CC1AB7905D00136FA5 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* ParseTwitterUtils.framework */; };
-		81CB98D81AB791FB00136FA5 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813DFC921AB2515A00F25A08 /* Bolts.framework */; };
-		81CB98DB1AB7920E00136FA5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813DFC941AB251F700F25A08 /* Parse.framework */; };
 		81CB98DD1AB7921C00136FA5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CB98DC1AB7921C00136FA5 /* libsqlite3.dylib */; };
 		81CB98DF1AB7922600136FA5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CB98DE1AB7922600136FA5 /* AudioToolbox.framework */; };
 		81CB98E11AB7922C00136FA5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CB98E01AB7922C00136FA5 /* SystemConfiguration.framework */; };
 		81D342A11B4C7DA500B6C124 /* ParseTwitterUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D342A01B4C7DA500B6C124 /* ParseTwitterUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD43C3B1C8DBD3100A4E486 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD43C391C8DBD3100A4E486 /* Bolts.framework */; };
+		CBD43C3C1C8DBD3100A4E486 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD43C3A1C8DBD3100A4E486 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,8 +81,6 @@
 		8135E4921B4B6A0E0092F452 /* PF_Twitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PF_Twitter.m; sourceTree = "<group>"; };
 		8135E4931B4B6A0E0092F452 /* PFTwitterUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFTwitterUtils.h; sourceTree = "<group>"; };
 		8135E4941B4B6A0E0092F452 /* PFTwitterUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFTwitterUtils.m; sourceTree = "<group>"; };
-		813DFC921AB2515A00F25A08 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Vendor/Bolts.framework; sourceTree = "<group>"; };
-		813DFC941AB251F700F25A08 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		813DFC971AB2526000F25A08 /* third_party_licenses.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = third_party_licenses.txt; sourceTree = SOURCE_ROOT; };
 		813E54A31BB5DDEF00C727E8 /* PFTwitterUtils_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFTwitterUtils_Private.h; sourceTree = "<group>"; };
 		813E54A51BB5E52000C727E8 /* PFTwitterPrivateUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFTwitterPrivateUtilities.h; sourceTree = "<group>"; };
@@ -112,6 +108,8 @@
 		81CB98DE1AB7922600136FA5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.2.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
 		81CB98E01AB7922C00136FA5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		81D342A01B4C7DA500B6C124 /* ParseTwitterUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseTwitterUtils.h; sourceTree = "<group>"; };
+		CBD43C391C8DBD3100A4E486 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Carthage/Build/iOS/Bolts.framework; sourceTree = "<group>"; };
+		CBD43C3A1C8DBD3100A4E486 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Carthage/Build/iOS/Parse.framework; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ParseTwitterUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31BB2625FB261014BCD4FB6 /* libPods-ParseTwitterUtils-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParseTwitterUtils-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F51535531B57453700C49F56 /* ParseTwitterUtils-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "ParseTwitterUtils-iOS.xcconfig"; sourceTree = "<group>"; };
@@ -135,8 +133,6 @@
 				81CB98DF1AB7922600136FA5 /* AudioToolbox.framework in Frameworks */,
 				81CB98DD1AB7921C00136FA5 /* libsqlite3.dylib in Frameworks */,
 				81CB98CC1AB7905D00136FA5 /* ParseTwitterUtils.framework in Frameworks */,
-				81CB98D81AB791FB00136FA5 /* Bolts.framework in Frameworks */,
-				81CB98DB1AB7920E00136FA5 /* Parse.framework in Frameworks */,
 				77DE89F60F51105C769BEC0B /* libPods-ParseTwitterUtils-Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,8 +141,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				813DFC951AB251F700F25A08 /* Parse.framework in Frameworks */,
-				813DFC931AB2515A00F25A08 /* Bolts.framework in Frameworks */,
+				CBD43C3C1C8DBD3100A4E486 /* Parse.framework in Frameworks */,
+				CBD43C3B1C8DBD3100A4E486 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,8 +277,8 @@
 		813DFC8F1AB2513D00F25A08 /* User Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				813DFC941AB251F700F25A08 /* Parse.framework */,
-				813DFC921AB2515A00F25A08 /* Bolts.framework */,
+				CBD43C391C8DBD3100A4E486 /* Bolts.framework */,
+				CBD43C3A1C8DBD3100A4E486 /* Parse.framework */,
 			);
 			name = "User Frameworks";
 			sourceTree = "<group>";
@@ -693,6 +689,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F51535531B57453700C49F56 /* ParseTwitterUtils-iOS.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 			};
 			name = Debug;
 		};
@@ -700,6 +700,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F51535531B57453700C49F56 /* ParseTwitterUtils-iOS.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 			};
 			name = Release;
 		};
